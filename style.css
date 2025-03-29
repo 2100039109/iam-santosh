@@ -15,7 +15,7 @@ body {
 }
 /* Full-Screen Black Gradient Background */
 body {
-    background-image: url('path-to-your-background-image.jpg');
+    background-image: url('/photos/ Wallpaper.jpg');
     background-size: cover; /* Ensures the image covers the entire page */
     background-position: center; /* Centers the image */
     background-attachment: fixed; /* Keeps the background fixed during scrolling */
@@ -45,16 +45,7 @@ body {
 }
 
 /* Navbar Styling */
-.header {
-    background: rgba(0, 0, 0, 0.9);
-    padding: 15px 0;
-    text-align: center;
-    
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 100;
-}
+
 
 /* Section Styling */
 section {
@@ -196,6 +187,8 @@ section h2::after {
     align-items: center;
     padding-top: 120px;
 }
+
+
 
 .home-content {
     max-width: 600px;
@@ -343,6 +336,16 @@ section h2::after {
     line-height: 1.8;
     margin-bottom: 20px;
     color: #ccc;
+}
+.skills-list {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    list-style: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+}
+
+.skills-list li {
+    margin: 0 15px; /* Adds spacing between items */
 }
 
 /* YouTube Section */
